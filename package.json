@@ -1,0 +1,15 @@
+{
+  "name": "TapToChat",
+  "version": "1.0.0",
+  "description": "TapToChat is chatbot agency business idea created for Finanical Management 20.",
+  "main": "startup.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reptetion",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
