@@ -2,12 +2,13 @@ const { Client, MessageEmbed } = require('discord.js');
 const fs = require('fs');
 
 const bot = new Client();
+bot.config = require('./config.json')
 
 bot.on('ready', () => {
 console.log('Ready');
 });
 
-bot.login('OTY1NzA0MTYxMzM5NTM1NDMx.Yl3EFQ.kt9DlPPXnXsSDVgy7j9NgD4Ng3A')
+bot.login(bot.config.token)
 
 //Customer support 
 
