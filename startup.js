@@ -18,7 +18,7 @@ if(message.content.startsWith('hello' || 'Hello')) {
 let helloEmbed = new MessageEmbed()
 .setAuthor('TapToChat Bot', bot.user.avatarURL())
 .setColor('BLUE')
-.setDescription(`Hello Aku! I am TapToChat, a chatbot designed to help make life easier by assisting customers and making customer support service a lot faster. So how may I help you today?`)
+.setDescription(`Hello ${bot.config.name}! I am TapToChat, a chatbot designed to help make life easier by assisting customers and making customer support service a lot faster. So how may I help you today?`)
 .setFooter('© TapToChat Bot')
 .setTimestamp()
 message.channel.send(helloEmbed)
